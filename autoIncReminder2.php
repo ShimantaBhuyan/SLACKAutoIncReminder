@@ -5,10 +5,10 @@
     include("SQLHelper.php");
 
     //database authentication starts
-    $host = "localhost";
-    $user = "root";
-    $password = "";
-    $database = "sakila";
+    $host = HOST;
+    $user = USER;
+    $password = PASSWORD;
+    $database = DATABASE;
     //database authentication ends
 
     //create MySQLdatabase connection
