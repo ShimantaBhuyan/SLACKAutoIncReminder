@@ -53,7 +53,7 @@
     //create string of table names from response
     foreach ($response as $tabble) {
         $field1Values .= "_".$tabble['TABLE_NAME']."_\n";
-        $field4Values .= $tabble['AUTO_INCREMENT_RATIO']."\n";
+        $field4Values .= ($tabble['AUTO_INCREMENT_RATIO']*100)."\n";
     }
     $field1Values = substr($field1Values, 0, -1);
     $field4Values = substr($field4Values, 0, -1);
