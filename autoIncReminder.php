@@ -116,7 +116,7 @@
     require("sendToSlack.php");
 
     //webHook URL
-    $url  = "https://hooks.slack.com/services/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";
+    $url  = YOUR_INCOMING_WEBHOOK_URL;
 
     //send to SLACK!!!
     $msg = sendToSlack($url, $alert);
