@@ -58,7 +58,7 @@
       $value =  $tabble['AUTO_INCREMENT_RATIO'];
       if($value >= $warning){
         $field1Values .= "_".$tabble['TABLE_NAME']."_\n";
-        $field4Values .= $tabble['AUTO_INCREMENT_RATIO']."\n";
+        $field4Values .= ($tabble['AUTO_INCREMENT_RATIO']*100)."\n";
       }
     }
     //to remove the newline character at the end
