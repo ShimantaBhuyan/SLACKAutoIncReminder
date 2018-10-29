@@ -12,8 +12,8 @@ The autoIncReminder2.php script alerts a message to the SLACK channel of all tab
 6. Modify MySQL database parameters in the script
 
 ### A SLICK WAY TO IMPLEMENT ON A LINUX SERVER
-From Wikipedia<br>
-> The software utility cron is a time-based job scheduler in Unix-like computer operating systems. 
-> People who set up and maintain software environments use cron to schedule jobs (commands or shell scripts) to run periodically at fixed times, dates, or intervals. <br>
+From Wikipedia
+> The software utility cron is a time-based job scheduler in Unix-like computer operating systems. People who set up and maintain software environments use cron to schedule jobs (commands or shell scripts) to run periodically at fixed times, dates, or intervals. 
+
 We can set up a cron job to run this script on a periodic basis, like monthly or weekly and then get periodic alerts on our Slack channel.<br>
 _How Slick!_
